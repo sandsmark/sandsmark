@@ -1,6 +1,6 @@
 <p align=center>
 
-![martin](https://raw.githubusercontent.com/sandsmark/sandsmark/master/sandsmark/martin.gif)
+<img align="center" src="https://raw.githubusercontent.com/sandsmark/sandsmark/master/sandsmark/martin.gif">
 
 </p>
 
