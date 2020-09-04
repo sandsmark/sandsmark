@@ -161,7 +161,7 @@ Internet
 
 Other
 -----
- - [SCP mirror attempt 1](https://github.com/sandsmark/scp-wiki/), [SCP mirror attempt 2](https://github.com/sandsmark/scp-new). It takes a couple of weeks to run an attempt (because I throttle myself).
+ - [SCP wiki dump](https://github.com/sandsmark/scp-wiki/), full mirror of the scp wiki with the entire history. ~20 million words, fun for training Machine Learning Things™
  - [dotfiles](https://github.com/sandsmark/dotfiles), since everyone like to post these kind of things. And it makes it easy to keep the config in sync across machines.
  - [anti-anti-devtools](https://github.com/sandsmark/anti-anti-devtools), started out as a chromium extension to defeat the tricks people use to detect devtools. Ended up defeating fingerprinting (and crashing some fingerprint-library-backends).
  - [sequrerender-child](https://github.com/sandsmark/sequrerender-child) and [sequrerender-host](https://github.com/sandsmark/sequrerender-host), testing out-of-process rendering with shared memory and seccomp and stuff.
