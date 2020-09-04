@@ -64,6 +64,7 @@ Command line utilities
  - [github-mirror](https://github.com/sandsmark/github-mirror), a simple script to automatically mirror all your github repos
  - [quasselpwdumper](https://github.com/sandsmark/quasselpwdumper), dumps your quassel password from your config file. forgot my password at some point so I wrote this.
  - [quassel-sqlite-merge](https://github.com/sandsmark/quassel-sqlite-merge), script to merge in an old quassel sqlite database into a postgresql database.
+ - [unfuckify](https://github.com/sandsmark/unfuckify), makes c++ code using `auto` readable, i. e. unfucks it. I think this is what the kids call "opinionated".
 
 Machine Learning™-ish
 ------------------
