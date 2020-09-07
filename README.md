@@ -33,7 +33,6 @@ Games
  - [recrossable](https://github.com/sandsmark/recrossable), crossword game with handwriting recognition and automatic crossword generation. Originally written for my reMarkable™® tablet.
  - [progress-quest](https://github.com/sandsmark/progress-quest), c++/qt version of progress quest.
  - [Awesome War Game](https://github.com/sandsmark/awg), our first year object oriented programming project.
- - [spacetrader](https://github.com/sandsmark/spacetrader), start of a port of the space trader game for palmos. never got far.
 
 Graphical utilities
 -------------------
@@ -50,7 +49,6 @@ Graphical utilities
  - [martin-toldyouso](https://github.com/sandsmark/martin-toldyouso), so I can keep track of every time I told people so.
  - [slaq](https://github.com/sandsmark/slaq), slack sucks.
  - [BORG](https://github.com/sandsmark/borg), automated bot launcher used for the AI competition at The Gathering (keeps tracks of scores and stuff, because I didn't want to do that manually on stage).
- - [notes](https://github.com/sandsmark/notes), web-based note-taking app written in c++.
  - [notifu](https://github.com/sandsmark/notifu), someone on IRC wanted a tool that loaded and displayed an URL in a popup for notifications.
  - [ini-editor](https://github.com/sandsmark/ini-editor), I think this was to create a more generic config interface for the Xine backend for phonon.
 
@@ -159,6 +157,7 @@ Internet
  - [hjemmeside](https://github.com/sandsmark/hjemmeside), one of my old homepages from when I started to learn django.
  - [cbot](https://github.com/sandsmark/cbot), IRC bot for NTNU gangstaz.
  - [DESMAN](https://github.com/sandsmark/desman), distributed peer-to-peer decentralized ~~blockchain~~ service monitoring written for the student society in trondheim in 2008, never actually used. codename "lollercoaster".
+ - [notes](https://github.com/sandsmark/notes), web-based note-taking app written in c++.
 
 Other
 -----
@@ -168,6 +167,11 @@ Other
  - [sequrerender-child](https://github.com/sandsmark/sequrerender-child) and [sequrerender-host](https://github.com/sandsmark/sequrerender-host), testing out-of-process rendering with shared memory and seccomp and stuff.
  - [libfisk](https://github.com/sandsmark/libfisk), `LD_PRELOAD` hack to hide the fact that someone has been fisked. fisking is a long tradition at the Student Society in Trondheim where you do stuff like putting `echo sleep 1 >> ~/.bashrc` into people's `.bashrc` when they forget to lock their session.
 
+
+Unusable old stuff
+---------
+Probably not useful
+ - [spacetrader](https://github.com/sandsmark/spacetrader), start of a port of the space trader game for palmos. never got far.
 
 Minor stuff
 ------------------------------------
