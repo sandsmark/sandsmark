@@ -86,6 +86,7 @@ Desktop environment or whatever, stuff that makes my laptop work
  - [dbus-screensaver-inhibit-dummy](https://github.com/sandsmark/dbus-screensaver-inhibit-dummy), dumb hack to keep steam from keeping my machine unlocked and awake forever.
  - [sandsmark-integration](https://github.com/sandsmark/sandsmark-integration), custom QPA for myself, based on frameworks-integration (now gone).
  - [pastenotifier](https://github.com/sandsmark/pastenotifier), pops up a tiny window when the clipboard changes. So you know what you paste before you paste the wrong thing in the wrong window.
+ - [polkit-dumb-agent](https://github.com/sandsmark/polkit-dumb-agent), a polkit agent in 145 lines of code, because polkit is dumb and none of the other agents worked.
  - [qiwd](https://github.com/sandsmark/qiwd), GUI interface to iwd (because `wpa_supplicant` is old news).
  - [Select Default Application](https://github.com/sandsmark/selectdefaultapplication), because I don't want notepad to be my default text editor, or Firefox to be my default image viewer.
  - [discotiles](https://github.com/sandsmark/discotiles), simple screensaver effect using QML.
@@ -192,7 +193,7 @@ Mostly things I didn't write with a couple of commits (e. g. because I wanted to
  - [kcm-lookandfeel-standalone](https://github.com/sandsmark/kcm-lookandfeel-standalone), to avoid having to install the whole Plasma desktop.
  - [kjackal](https://github.com/sandsmark/kjackal), rootkit scanner. ported to newer kernels.
  - [kde-cli-tools-standalone](https://github.com/sandsmark/kde-cli-tools-standalone), to avoid having to install the whole Plasma desktop just for kcmshell.
- - [qt-polkitagent](https://github.com/sandsmark/qt-polkitagent), couldn't get any polkit crap to work.
+ - [qt-polkitagent](https://github.com/sandsmark/qt-polkitagent), couldn't get any polkit crap to work. So had to fix the build of this to test it, but surprise, it didn't work.
  - [kwest](https://github.com/sandsmark/kwest), interpreter for text adventures, half-way ported to Qt5
  - [Age of The Ring](https://github.com/sandsmark/AoE_Project2), some school project I found. Played around with it and fixed it up a bit.
  - [signsrch](https://github.com/sandsmark/signsrch), just a mirror, but with history.
