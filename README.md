@@ -36,7 +36,7 @@ Games
 
 Graphical utilities
 -------------------
- - [mousr-qt-controller](https://github.com/sandsmark/mousr-qt-controller), utility to control the robots my cat play with (mousr and sphero).
+ - [sphero-and-mousr-qt-controller](https://github.com/sandsmark/sphero-and-mousr-qt-controller), utility to control the robots my cat play with (mousr and sphero).
  - [qt-scp-reader](https://github.com/sandsmark/qt-scp-reader), an offline reader for the [SCP wiki](http://scp-wiki.wikidot.com/). Works with the data in the SCP mirrors below.
  - [qbyteview](https://github.com/sandsmark/qbyteview), simple tool to visualize a binary (displays entropy with a fancy method I don't remember the name of).
  - [epubreader](https://github.com/sandsmark/epubreader), simple epub reader using qt.
@@ -92,6 +92,8 @@ Desktop environment or whatever, stuff that makes my laptop work
  - [discotiles](https://github.com/sandsmark/discotiles), simple screensaver effect using QML.
  - [reddit-notifier](https://github.com/sandsmark/reddit-notifier), a KDE plasmoid that shows reddit notifications from the RSS feed of notifications from your reddit account
  - [kfilemon](https://github.com/sandsmark/kfilemon), a simple LD_PRELOADable library to hijack moves to avoid having to use inotify.
+ - [kcmlaptop](https://github.com/sandsmark/kcmlaptop), laptop support (mostly power management) for KDE1.
+ - [kdewizard](https://github.com/sandsmark/kdewizard), kdewizard for KDE1 (I missed Kandalf when running KDE1).
 
 Multimedia-related
 ------------------
@@ -131,6 +133,7 @@ Libraries
  - [qt1](https://github.com/sandsmark/qt1), fixed build properly (upstream has a hacky "fix").
  - [zstr](https://github.com/sandsmark/zstr), header-only C++ library wrapping zlib with iostreams, used for genieutils/freeaoe.
  - [rengine](https://github.com/sandsmark/rengine), header(s)-only C++ scenegraph rendering graphical library thing. Used for tg18ai, so I had to add some stuff and fix some stuff.
+ - [qt1](https://github.com/sandsmark/qt1), copy of Qt1 for usage with KDE1 (with some minor issued fixed, like scrollwheel support in some apps).
 
 Demoscene-ish
 ---------
