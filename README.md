@@ -33,6 +33,7 @@ Games
  - [recrossable](https://github.com/sandsmark/recrossable), crossword game with handwriting recognition and automatic crossword generation. Originally written for my reMarkable™® tablet.
  - [progress-quest](https://github.com/sandsmark/progress-quest), c++/qt version of progress quest.
  - [Awesome War Game](https://github.com/sandsmark/awg), our first year object oriented programming project.
+ - [KTamaga](https://github.com/sandsmark/ktamaga), a Tamagotchi emulator. For KDE 1.
 
 Graphical utilities
 -------------------
@@ -51,6 +52,8 @@ Graphical utilities
  - [BORG](https://github.com/sandsmark/borg), automated bot launcher used for the AI competition at The Gathering (keeps tracks of scores and stuff, because I didn't want to do that manually on stage).
  - [notifu](https://github.com/sandsmark/notifu), someone on IRC wanted a tool that loaded and displayed an URL in a popup for notifications.
  - [ini-editor](https://github.com/sandsmark/ini-editor), I think this was to create a more generic config interface for the Xine backend for phonon.
+ - [kde1-kuickshow](https://github.com/sandsmark/kde1-kuickshow), KDE 1 version of Kuickshow. And ported away from imlib, because that API is horrible.
+ - [kde1-kshow](https://github.com/sandsmark/kde1-kshow), KDE 1 version of kshow. Because you always need more image viewers.
 
 Command line utilities
 ----------------------
@@ -94,6 +97,7 @@ Desktop environment or whatever, stuff that makes my laptop work
  - [kfilemon](https://github.com/sandsmark/kfilemon), a simple LD_PRELOADable library to hijack moves to avoid having to use inotify.
  - [kcmlaptop](https://github.com/sandsmark/kcmlaptop), laptop support (mostly power management) for KDE1.
  - [kdewizard](https://github.com/sandsmark/kdewizard), kdewizard for KDE1 (I missed Kandalf when running KDE1).
+ - [kde2-kdebase](https://github.com/sandsmark/kde2-kdebase), KDE 2 version of kdebase, fixed up to mostly build on a modern system.
 
 Multimedia-related
 ------------------
@@ -134,6 +138,8 @@ Libraries
  - [zstr](https://github.com/sandsmark/zstr), header-only C++ library wrapping zlib with iostreams, used for genieutils/freeaoe.
  - [rengine](https://github.com/sandsmark/rengine), header(s)-only C++ scenegraph rendering graphical library thing. Used for tg18ai, so I had to add some stuff and fix some stuff.
  - [qt1](https://github.com/sandsmark/qt1), copy of Qt1 for usage with KDE1 (with some minor issued fixed, like scrollwheel support in some apps).
+ - [KDE 2 kdelibs](https://github.com/sandsmark/kdelibs), KDE 2 version of kdelibs, fixed up to mostly build on a modern system.
+ - [extra-imageformats-qt](https://github.com/sandsmark/extra-imageformats-qt), collection of random extra image format plugins for Qt (bpg, fuif and pgf).
 
 Demoscene-ish
 ---------
@@ -162,6 +168,7 @@ Internet
  - [cbot](https://github.com/sandsmark/cbot), IRC bot for NTNU gangstaz.
  - [DESMAN](https://github.com/sandsmark/desman), distributed peer-to-peer decentralized ~~blockchain~~ service monitoring written for the student society in trondheim in 2008, never actually used. codename "lollercoaster".
  - [notes](https://github.com/sandsmark/notes), web-based note-taking app written in c++.
+ - [millenials-to-snake-people](https://github.com/sandsmark/millennials-to-snake-people), Chromium extension that does what it says, with toggle button (because I don't want it on all sites).
 
 Other
 -----
