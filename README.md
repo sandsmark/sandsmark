@@ -24,6 +24,7 @@ Most of the repos that might be interesting. Not everything works or is finished
 Games
 -----
  - [freeaoe](https://github.com/sandsmark/freeaoe), age of empires II reimplementation
+ - [Schiffbruch](https://github.com/sandsmark/Schiffbruch/), game I played when I was young. Cleaned up to build and run on Linux, translated most code from german.
  - [tg18ai](https://github.com/sandsmark/tg18ai), planned to use it for holding the AI competition at TG18, but Windows doesn't work.
  - [ghostly](https://github.com/sandsmark/aicompo-tg17), compo case for the AI competition at TG17 ("inverse" Pacman™®).
  - [Turn On Me](https://github.com/sandsmark/aicompo-tg16), compo case for the AI competition at TG16
@@ -34,7 +35,6 @@ Games
  - [progress-quest](https://github.com/sandsmark/progress-quest), c++/qt version of progress quest.
  - [Awesome War Game](https://github.com/sandsmark/awg), our first year object oriented programming project.
  - [KTamaga](https://github.com/sandsmark/ktamaga), a Tamagotchi emulator. For KDE 1.
- - [Schiffbruch](https://github.com/sandsmark/Schiffbruch/), game I played when I was young. Cleaned up to build and run on Linux, translated most code from german.
 
 Graphical utilities
 -------------------
@@ -55,6 +55,12 @@ Graphical utilities
  - [ini-editor](https://github.com/sandsmark/ini-editor), I think this was to create a more generic config interface for the Xine backend for phonon.
  - [kde1-kuickshow](https://github.com/sandsmark/kde1-kuickshow), KDE 1 version of Kuickshow. And ported away from imlib, because that API is horrible.
  - [kde1-kshow](https://github.com/sandsmark/kde1-kshow), KDE 1 version of kshow. Because you always need more image viewers.
+ - [turbo-button](https://github.com/sandsmark/turbo-button), simple tray application toggling between battery saving and performance CPU stuff.
+ - [kde2-kmorph](https://github.com/sandsmark/kde1-kmorph), KDE 2 application to morph between two images. Ported and improved performance a bit, don't really know how it is supposed to be used.
+ - [kde1-kteatime](https://github.com/sandsmark/kde1-kteatime), the original (pre-KDE 2 port) version of kteatime.
+ - [KWoodhammer](https://github.com/sandsmark/kwoodhammer), All-in-one shell for all kinds of data encryption. KDE 1 version.
+ - [qt-rfb-client](https://github.com/sandsmark/qt-rfb-client), RFB/VNC client using Qt, ported to run on my reMarkable™.
+ - [phototonic](https://github.com/oferkv/phototonic), Image Viewer and organizer. 
 
 Command line utilities
 ----------------------
@@ -67,6 +73,8 @@ Command line utilities
  - [quasselpwdumper](https://github.com/sandsmark/quasselpwdumper), dumps your quassel password from your config file. forgot my password at some point so I wrote this.
  - [quassel-sqlite-merge](https://github.com/sandsmark/quassel-sqlite-merge), script to merge in an old quassel sqlite database into a postgresql database.
  - [unfuckify](https://github.com/sandsmark/unfuckify), makes c++ code using `auto` readable, i. e. unfucks it. I think this is what the kids call "opinionated".
+ - [Vector-cmdline-tools](https://github.com/sandsmark/Vector-cmdline-tools), tools to work with the Anki Vector robot. Porting to Qt Bluetooth to make it work on Linux (and maybe Windows).
+ - [Steamless](https://github.com/sandsmark/Steamless), SteamStub remover, command line version.
 
 Machine Learning™-ish
 ------------------
@@ -82,6 +90,8 @@ Machine Learning™-ish
  - [decision-tree-learning](https://github.com/sandsmark/decision-tree-learning), Implementation of decision-tree learning algorithms in C++ for the course TDT4171 Artificial Intelligence Methods.
  - [forward-backward-inference](https://github.com/sandsmark/forward-backward-inference), implementation of the forward-backward algorithm for the course TDT4171 Artificial Intelligence Methods.
  - [poker-ai](https://github.com/sandsmark/poker-ai), a poker ai written for the course IT3105
+ - [caffe](https://github.com/sandsmark/caffe), fork of Caffe for some vapoursynth I think. Forked to fix compatibility with latest cudnn.
+ - [vision](https://github.com/sandsmark/vision/tree/martin/images-r-cool), pytorch vision module. Just fixing the libjpeg and libpng usage.
 
 Desktop environment or whatever, stuff that makes my laptop work
 ---------------------------------
@@ -99,9 +109,16 @@ Desktop environment or whatever, stuff that makes my laptop work
  - [kcmlaptop](https://github.com/sandsmark/kcmlaptop), laptop support (mostly power management) for KDE1.
  - [kdewizard](https://github.com/sandsmark/kdewizard), kdewizard for KDE1 (I missed Kandalf when running KDE1).
  - [kde2-kdebase](https://github.com/sandsmark/kde2-kdebase), KDE 2 version of kdebase, fixed up to mostly build on a modern system.
+ - [kde2-kio-sftp-kde3](https://github.com/sandsmark/kde2-kio-sftp), backport of kio-sftp from KDE 3, wrapping the `ssh` executable. Doesn't work well, use the one below.
+ - [kde2-kio-sftp-kde4](https://github.com/sandsmark/kde2-kio-sftp-kde4), backport of kio-sftp from KDE 4, using libssh.
+ - [xdg-autostart-launcher](https://github.com/sandsmark/xdg-autostart-launcher), automatically launches all applications in the XDG autostart folders.
+ - [kvoicecontrol](https://github.com/sandsmark/kvoicecontrol), tool that gives you voice control over your unix commands. For KDE 1.
+ - [kde1-amor](https://github.com/sandsmark/kde1-amor), backport of Amusing Misuse of Resources for KDE 1 or something.
+ - [kde1-kpackage](https://github.com/sandsmark/kde1-kpackage), KDE 1 version of KPackage with libalpm/pacman/archlinux backend/support.
 
 Multimedia-related
 ------------------
+ - [linux-vr-player-or-something](https://github.com/sandsmark/linux-vr-player-or-something), very simple VR video player using libmpv and openhmd. Because apparently everyone thought this was impossible to do or something?
  - [pavucontrol-qt](https://github.com/sandsmark/pavucontrol-qt), major cleanup from upstream and a ton of bugfixes, cleanups and refactoring. Upstream didn't want my changes.
  - [VapourSynth Editor](https://github.com/sandsmark/vapoursynth-editor), editor for vapoursynth scripts. Forked it because upstream seemed dead, and I wanted some features that probably wouldn't get merged in the first place (like full-fletched vim-mode).
  - [sigp](https://github.com/sandsmark/sigp), simple audio visualizer thing for Samfundets Interne Grand Prix 2010.
@@ -115,6 +132,7 @@ Multimedia-related
  - [akode](https://github.com/sandsmark/akode), start of a backend for Phonon using ffmpeg etc. directly.
  - [vapor](https://github.com/sandsmark/vapor), desktop client for rawk the cloud web music server thing.
  - [impd](https://github.com/sandsmark/impd), custom MPD server implementation.
+ - [taglib](https://github.com/sandsmark/taglib), taglib with matroska/ebml support.
 
 Save editors
 ------------
@@ -141,6 +159,8 @@ Libraries
  - [qt1](https://github.com/sandsmark/qt1), copy of Qt1 for usage with KDE1 (with some minor issued fixed, like scrollwheel support in some apps).
  - [KDE 2 kdelibs](https://github.com/sandsmark/kdelibs), KDE 2 version of kdelibs, fixed up to mostly build on a modern system.
  - [extra-imageformats-qt](https://github.com/sandsmark/extra-imageformats-qt), collection of random extra image format plugins for Qt (bpg, fuif and pgf).
+ - [tacopie](https://github.com/sandsmark/tacopie), C++ TCP Library. Upstream is dead.
+ - [qtcreator-breakpad](https://github.com/sandsmark/qtcreator-breakpad), breakpad integration extracted from qtcreator.
 
 Demoscene-ish
 ---------
@@ -170,6 +190,9 @@ Internet
  - [DESMAN](https://github.com/sandsmark/desman), distributed peer-to-peer decentralized ~~blockchain~~ service monitoring written for the student society in trondheim in 2008, never actually used. codename "lollercoaster".
  - [notes](https://github.com/sandsmark/notes), web-based note-taking app written in c++.
  - [millenials-to-snake-people](https://github.com/sandsmark/millennials-to-snake-people), Chromium extension that does what it says, with toggle button (because I don't want it on all sites).
+ - [Imagus](https://github.com/sandsmark/chrome-extension-imagus), Chromium extension to show images on hover, github mirror with unminified code to compare with code in the official Chrome Store. Just because I don't trust stuff in the store.
+ - [chrome-extension-tick](https://github.com/sandsmark/chrome-extension-tick), two simple chrome extensions that just tick or untick every checkbox.
+ - [autochecker](https://github.com/sandsmark/autochecker), google chrome extension to help automatically check the right boxes when filling out forms.
 
 Other
 -----
@@ -214,6 +237,19 @@ Mostly things I didn't write with a couple of commits (e. g. because I wanted to
  - [vlc-chromecast-subtitles](https://github.com/sandsmark/vlc-chromecast-subtitles), VLC with the patches for proper subtitle support for Chromecast™®.
  - [irstlm](https://github.com/sandsmark/irstlm), had to fix this to get Kaldi to work Properly™.
  - [opensift](https://github.com/sandsmark/opensift), upstream is dead. Now with modern opencv support.
+ - [heifthumbnailer](https://github.com/sandsmark/heifthumbnailer), KIO HEIF thumbnailer.
+ - [piQtureGLide](https://github.com/sandsmark/piQtureGLide), OpenGL picture viewer thing ported to Qt 5.
+ - [konsolelauncher](https://github.com/sandsmark/konsolelauncher), testing quick and dirty hack to speed up launching of konsole.
+ - [bypass-paywalls-chrome](https://github.com/sandsmark/bypass-paywalls-chrome), Bypass Paywalls web browser extension for Chrome and Firefox, with a fix for some crashing. But upstream doesn't seem to allow me to open a PR.
+ - [Goblin Camp Stone Soup](https://github.com/sandsmark/goblin_camp), Dwarf Fortress clone, revisited. Cleaning it up.
+ - [opensift](https://github.com/sandsmark/opensift), Open-Source SIFT Library. Fixing opencv compatibility and stuff.
+ - [kdeconnect-minimal](https://github.com/sandsmark/kdeconnect-minimal), kdeconnect without so many big required dependencies.
+ - [okular-backend-mupdf](https://github.com/sandsmark/okular-backend-mupdf), PDF backend for Okular using MuPDF. Cleaning it up.
+ - [Amnesia: A Machine For Pigs](https://github.com/sandsmark/AmnesiaAMachineForPigs), a survival horror game. Porting it to modern versions of stuff like angelscript.
+ - [OALWrapper](https://github.com/sandsmark/OALWrapper), for Amnesia. Cleaning it up to fix build on Linux.
+ - [falltergeist](https://github.com/sandsmark/falltergeist), opensource crossplatform Fallout 2™ game engine writen in C++ and SDL. Cleaning up.
+ - [Ghidra](https://github.com/sandsmark/ghidra), adding some hardening flags to Ghidra build.
+ - [Butterflow](https://github.com/sandsmark/butterflow), ported to opencv 4 and python 3.
 
 
 ![lol](https://raw.githubusercontent.com/sandsmark/sandsmark/master/sandsmark/dog.jpg)
