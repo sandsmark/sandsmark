@@ -34,6 +34,7 @@ Games
  - [progress-quest](https://github.com/sandsmark/progress-quest), c++/qt version of progress quest.
  - [Awesome War Game](https://github.com/sandsmark/awg), our first year object oriented programming project.
  - [KTamaga](https://github.com/sandsmark/ktamaga), a Tamagotchi emulator. For KDE 1.
+ - [Schiffbruch](https://github.com/sandsmark/Schiffbruch/), game I played when I was young. Cleaned up to build and run on Linux, translated most code from german.
 
 Graphical utilities
 -------------------
