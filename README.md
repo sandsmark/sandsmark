@@ -65,6 +65,7 @@ Graphical utilities
  - [notifu](https://github.com/sandsmark/notifu), someone on IRC wanted a tool that loaded and displayed an URL in a popup for notifications.
  - [turbo-button](https://github.com/sandsmark/turbo-button), simple tray application toggling between battery saving and performance CPU stuff.
  - [qt-rfb-client](https://github.com/sandsmark/qt-rfb-client), RFB/VNC client using Qt, ported to run on my reMarkable™.
+ - [pebble](https://github.com/sandsmark/pebble), breadboard layout web app. Test it at https://sandsmark.github.io/pebble/
 
 Command line utilities
 ----------------------
@@ -108,8 +109,9 @@ Desktop environment or whatever, stuff that makes my laptop work
  - [Select Default Application](https://github.com/sandsmark/selectdefaultapplication), because I don't want notepad to be my default text editor, or Firefox to be my default image viewer.
  - [discotiles](https://github.com/sandsmark/discotiles), simple screensaver effect using QML.
  - [reddit-notifier](https://github.com/sandsmark/reddit-notifier), a KDE plasmoid that shows reddit notifications from the RSS feed of notifications from your reddit account
- - [kfilemon](https://github.com/sandsmark/kfilemon), a simple LD_PRELOADable library to hijack moves to avoid having to use inotify.
+ - [kfilemon](https://github.com/sandsmark/kfilemon), a simple `LD_PRELOAD`able library to hijack moves to avoid having to use inotify.
  - [xdg-autostart-launcher](https://github.com/sandsmark/xdg-autostart-launcher), automatically launches all applications in the XDG autostart folders.
+ - [patoggler](https://github.com/sandsmark/patoggler), simple thing to toggle mute in pulseaudio.
 
 Multimedia-related
 ------------------
@@ -119,8 +121,11 @@ Multimedia-related
  - [sigp](https://github.com/sandsmark/sigp), simple audio visualizer thing for Samfundets Interne Grand Prix 2010.
  - [vapoursynth-movit](https://github.com/sandsmark/vapoursynth-movit), Vapoursynth plugin exposing Movit. Written blindly (aka. plain vim without plugins, and without testing that it builds). Probably doesn't work.
  - [qoniometer](https://github.com/sandsmark/qoniometer), audio visualizer. Because frequency analysis visualization is boring.
+ - [qpitch](https://github.com/sandsmark/qpitch), instrument tuner.
+ - [guitar-effects](https://github.com/sandsmark/guitar-effects), various realtime, low-latency guitar effects. Loopback thing using pulseaudio.
 
-Ancient stuff:
+Ancient stuff
+-------------
 
  - [spokify](https://github.com/sandsmark/Spokify), unofficial spotify™® client. added support for scrobbling (to last.fm), visualizer, the magic starred playlist, and some other stuff I don't remember.
  - [amarok-soundcloud](https://github.com/sandsmark/amarok-soundcloud), soundcloud support for amarok. I think it worked at some point.
@@ -189,6 +194,10 @@ Chrome extensions
  - [autochecker](https://github.com/sandsmark/autochecker), google chrome extension to help automatically check the right boxes when filling out forms.
  - [anti-anti-devtools](https://github.com/sandsmark/anti-anti-devtools), started out as a chromium extension to defeat the tricks people use to detect devtools. Ended up defeating fingerprinting (and crashing some fingerprint-library-backends).
  - [bypass-paywalls-chrome](https://github.com/sandsmark/bypass-paywalls-chrome), Bypass Paywalls web browser extension for Chrome and Firefox, with a fix for some crashing. But upstream doesn't seem to allow me to open a PR.
+ - [url-rewriter](https://github.com/sandsmark/url-rewriter), rewrites URLs on the fly.
+ - [chrome-no-cohort](https://github.com/sandsmark/chrome-no-cohort), Disables the new google fingerprinting things.
+ - [archive.is-chrome-extension](https://github.com/sandsmark/archive.is-chrome-extension), open links via archive.is when you right click them.
+ - [browser-painter](https://github.com/sandsmark/browser-painter), draw on web pages.
 
 KDE 1 and KDE 2
 ---------------
@@ -219,6 +228,7 @@ Other
  - [sequrerender-child](https://github.com/sandsmark/sequrerender-child) and [sequrerender-host](https://github.com/sandsmark/sequrerender-host), testing out-of-process rendering with shared memory and seccomp and stuff.
  - [libfisk](https://github.com/sandsmark/libfisk), `LD_PRELOAD` hack to hide the fact that someone has been fisked. fisking is a long tradition at the Student Society in Trondheim where you do stuff like putting `echo sleep 1 >> ~/.bashrc` into people's `.bashrc` when they forget to lock their session.
  - [bluefish](https://github.com/sandsmark/bluefish), (old) snapchat client for the jolla. snapchat has drastically altered their API, so hasn't worked for a while (since I stopped using my jolla).
+ - [glog-squash](https://github.com/sandsmark/glog-squash), `LD_PRELOAD` hack to disable endless amount of spam to the console when launching glib applications.
 
 
 Unusable old stuff
