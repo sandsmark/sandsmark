@@ -13,6 +13,7 @@ Most of the repos that might be interesting. Not everything works or is finished
   5. [Machine Learning™-ish](#machine-learning-ish)
   6. [Desktop environment or whatever, stuff that makes my laptop work](#desktop-environment-or-whatever-stuff-that-makes-my-laptop-work)
   7. [Multimedia-related](#multimedia-related)
+  7. [Ancient stuff](#ancient-stuff)
   8. [Graphics related](#graphics)
   9. [Libraries](#libraries)
  10. [Demoscene-ish](#demoscene-ish)
