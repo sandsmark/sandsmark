@@ -39,6 +39,10 @@ Games
  - [Awesome War Game](https://github.com/sandsmark/awg), our first year object oriented programming project.
  - [KTamaga](https://github.com/sandsmark/ktamaga), a Tamagotchi emulator. For KDE 1.
  - [Amnesia: A Machine For Pigs](https://github.com/sandsmark/AmnesiaAMachineForPigs), a survival horror game. Porting it to modern versions of stuff like angelscript.
+ - [falltergeist](https://github.com/sandsmark/falltergeist), opensource crossplatform Fallout 2™ game engine writen in C++ and SDL. Cleaning up.
+ - [kwest](https://github.com/sandsmark/kwest), interpreter for text adventures, half-way ported to Qt5
+ - [Goblin Camp Stone Soup](https://github.com/sandsmark/goblin_camp), Dwarf Fortress clone, revisited. Cleaning it up.
+ - [Age of The Ring](https://github.com/sandsmark/AoE_Project2), some school project I found. Played around with it and fixed it up a bit.
 
 Game related
 -----
@@ -97,6 +101,8 @@ Machine Learning™-ish
  - [poker-ai](https://github.com/sandsmark/poker-ai), a poker ai written for the course IT3105
  - [caffe](https://github.com/sandsmark/caffe), fork of Caffe for some vapoursynth I think. Forked to fix compatibility with latest cudnn.
  - [vision](https://github.com/sandsmark/vision/tree/martin/images-r-cool), pytorch vision module. Just fixing the libjpeg and libpng usage.
+ - [MLDemos](https://github.com/sandsmark/mldemos), visualization tool for random ML algorithms.
+ - [narxsim](https://github.com/sandsmark/narxsim), cleaned up some person's master thesis about [NARX](https://en.wikipedia.org/wiki/Nonlinear_autoregressive_exogenous_model)
 
 Desktop environment or whatever, stuff that makes my laptop work
 ---------------------------------
@@ -124,6 +130,9 @@ Multimedia-related
  - [qoniometer](https://github.com/sandsmark/qoniometer), audio visualizer. Because frequency analysis visualization is boring.
  - [qpitch](https://github.com/sandsmark/qpitch), instrument tuner.
  - [guitar-effects](https://github.com/sandsmark/guitar-effects), various realtime, low-latency guitar effects. Loopback thing using pulseaudio.
+ - [Butterflow](https://github.com/sandsmark/butterflow), ported to opencv 4 and python 3.
+ - [vlc-chromecast-subtitles](https://github.com/sandsmark/vlc-chromecast-subtitles), VLC with the patches for proper subtitle support for Chromecast™®.
+ - [inputstream.adaptive](https://github.com/sandsmark/inputstream.adaptive), started refactoring so wvdecrypter could work without Kodi, ended up just trying to fix compatibility with newest version of Widevine.
 
 Ancient stuff
 -------------
@@ -246,7 +255,6 @@ Mostly things I didn't write with a couple of commits (e. g. because I wanted to
  - [qmarkdowntextedit](https://github.com/sandsmark/qmarkdowntextedit), proper standalone version. preserved my fork because upstream later reverted my changes that made it a useful standalone application.
  - [sddm](https://github.com/sandsmark/sddm), started working on wayland support for sddm in 2013. never finished.
  - [kgtk](https://github.com/sandsmark/kgtk), ugly `LD_PRELOAD` hack to make GTK applications use Qt/KDE dialogs. Works sometimes.
- - [MLDemos](https://github.com/sandsmark/mldemos), visualization tool for random ML algorithms.
  - [krename](https://github.com/sandsmark/krename), rename utility. ported to qt5.
  - [esp-idf](https://github.com/sandsmark/esp-idf), fork to get the latest version with the necessary patches for ODROID-GO.
  - [synkron](https://github.com/sandsmark/synkron), ported to Qt5.
@@ -257,23 +265,15 @@ Mostly things I didn't write with a couple of commits (e. g. because I wanted to
  - [kjackal](https://github.com/sandsmark/kjackal), rootkit scanner. ported to newer kernels.
  - [kde-cli-tools-standalone](https://github.com/sandsmark/kde-cli-tools-standalone), to avoid having to install the whole Plasma desktop just for kcmshell.
  - [qt-polkitagent](https://github.com/sandsmark/qt-polkitagent), couldn't get any polkit crap to work. So had to fix the build of this to test it, but surprise, it didn't work.
- - [kwest](https://github.com/sandsmark/kwest), interpreter for text adventures, half-way ported to Qt5
- - [Age of The Ring](https://github.com/sandsmark/AoE_Project2), some school project I found. Played around with it and fixed it up a bit.
  - [signsrch](https://github.com/sandsmark/signsrch), just a mirror, but with history.
  - [clickteam-unpack](https://github.com/sandsmark/clickteam-unpack), fixed compatibility with some installer (forgot which).
- - [narxsim](https://github.com/sandsmark/narxsim), cleaned up some person's master thesis about [NARX](https://en.wikipedia.org/wiki/Nonlinear_autoregressive_exogenous_model)
- - [inputstream.adaptive](https://github.com/sandsmark/inputstream.adaptive), started refactoring so wvdecrypter could work without Kodi, ended up just trying to fix compatibility with newest version of Widevine.
- - [vlc-chromecast-subtitles](https://github.com/sandsmark/vlc-chromecast-subtitles), VLC with the patches for proper subtitle support for Chromecast™®.
  - [irstlm](https://github.com/sandsmark/irstlm), had to fix this to get Kaldi to work Properly™.
  - [opensift](https://github.com/sandsmark/opensift), upstream is dead. Now with modern opencv support.
  - [konsolelauncher](https://github.com/sandsmark/konsolelauncher), testing quick and dirty hack to speed up launching of konsole.
- - [Goblin Camp Stone Soup](https://github.com/sandsmark/goblin_camp), Dwarf Fortress clone, revisited. Cleaning it up.
  - [opensift](https://github.com/sandsmark/opensift), Open-Source SIFT Library. Fixing opencv compatibility and stuff.
  - [kdeconnect-minimal](https://github.com/sandsmark/kdeconnect-minimal), kdeconnect without so many big required dependencies.
  - [okular-backend-mupdf](https://github.com/sandsmark/okular-backend-mupdf), PDF backend for Okular using MuPDF. Cleaning it up.
- - [falltergeist](https://github.com/sandsmark/falltergeist), opensource crossplatform Fallout 2™ game engine writen in C++ and SDL. Cleaning up.
  - [Ghidra](https://github.com/sandsmark/ghidra), adding some hardening flags to Ghidra build.
- - [Butterflow](https://github.com/sandsmark/butterflow), ported to opencv 4 and python 3.
  - [ini-editor](https://github.com/sandsmark/ini-editor), I think this was to create a more generic config interface for the Xine backend for phonon.
 
 
